@@ -1,0 +1,231 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "9f521a9c-d479-421e-bba3-3800270258ea")
+	(paper "A5")
+	(lib_symbols
+		(symbol "Analog_Sandbox_PCB-eagle-import:DS01E"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" ""
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Footprint" "Analog_Sandbox_PCB:DS-01"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "DIL/CODE Switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "DS01E_1_0"
+				(polyline
+					(pts
+						(xy -3.175 0) (xy -1.905 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 3.175 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 58.42 34.29) (xy 63.5 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69b95e42-09b4-4334-b8fc-6fe4394e7f15")
+	)
+	(hierarchical_label "V_Reg_In"
+		(shape input)
+		(at 58.42 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "29d10f21-cb76-43d0-8751-9ce63ef40994")
+	)
+	(symbol
+		(lib_id "Analog_Sandbox_PCB-eagle-import:DS01E")
+		(at 68.58 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3af6edc9-65f1-4a6f-9d8a-afc266ad4ee4")
+		(property "Reference" "S10"
+			(at 68.58 26.67 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 68.58 30.48 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+			)
+		)
+		(property "Footprint" "Analog_Sandbox_PCB:DS-01"
+			(at 68.58 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DIL/CODE Switch"
+			(at 68.58 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e53ed9ca-f0be-4b7e-866f-8b4e8bc9f9be")
+		)
+		(pin "1"
+			(uuid "15ca9677-777f-4760-9a69-000b0d73e9ce")
+		)
+		(instances
+			(project ""
+				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/645f0e55-7cc6-4abc-86ac-4ed010d74420"
+					(reference "S10")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

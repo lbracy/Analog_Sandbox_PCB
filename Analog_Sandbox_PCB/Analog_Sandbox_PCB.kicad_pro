@@ -614,6 +614,34 @@
     [
       "ac750111-a1db-4b3c-a106-e1424e47aebb",
       "Root"
+    ],
+    [
+      "5f1ad39e-0f17-4880-9544-2cfbd63a3a10",
+      "Through and Across"
+    ],
+    [
+      "9c122918-2265-473b-8c84-35fbd0d69d38",
+      "Voltage Divider"
+    ],
+    [
+      "1ffce373-b0c0-4221-ae7b-13552ac0c0a1",
+      "Mixed DC"
+    ],
+    [
+      "ea0b2902-1294-499d-a00b-a55787386bf7",
+      "Series and Parallel"
+    ],
+    [
+      "645f0e55-7cc6-4abc-86ac-4ed010d74420",
+      "DC Time Constant"
+    ],
+    [
+      "fe66ce79-8177-44fa-a561-9cdc131a7718",
+      "Dependent Voltage Source"
+    ],
+    [
+      "a5814869-3245-4203-8f88-582f19956322",
+      "Thevenin"
     ]
   ],
   "text_variables": {}

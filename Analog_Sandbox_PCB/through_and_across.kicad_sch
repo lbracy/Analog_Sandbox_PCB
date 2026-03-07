@@ -1,0 +1,1786 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "0c070584-280d-4f95-90eb-99ded43dec09")
+	(paper "A5")
+	(lib_symbols
+		(symbol "Analog_Sandbox_PCB-eagle-import:CHIP-FLAT-Y_0603-0.35MM"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" ""
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+				)
+			)
+			(property "Footprint" "Analog_Sandbox_PCB:LEDC1608X35N_FLAT-Y"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Yellow LED - Generic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CHIP-FLAT-Y_0603-0.35MM_1_0"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 2.286) (xy -0.2922 1.6076)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 2.286) (xy -0.127 2.286)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 1.778) (xy 0.381 2.286)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 1.905) (xy 0.4697 1.2266)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 1.905) (xy 0.635 1.905)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 1.397) (xy 1.143 1.905)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 1.27) (xy 1.397 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 0)
+					(name "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 0)
+					(name "C"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Analog_Sandbox_PCB-eagle-import:DS01E"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" ""
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Footprint" "Analog_Sandbox_PCB:DS-01"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "DIL/CODE Switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "DS01E_1_0"
+				(polyline
+					(pts
+						(xy -3.175 0) (xy -1.905 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 3.175 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Analog_Sandbox_PCB-eagle-import:PAD"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+				)
+			)
+			(property "Footprint" "Analog_Sandbox_PCB:2.54_1.0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Through-Hole Pad"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PAD_1_0"
+				(polyline
+					(pts
+						(xy -1.016 1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -1.016) (xy 1.016 1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "P"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 88.9 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ac7741d-1fef-4f01-8daa-d66c4e9981ca")
+	)
+	(wire
+		(pts
+			(xy 127 49.53) (xy 124.46 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06e9f2c1-fa06-411e-94ba-05e74b9d9b96")
+	)
+	(wire
+		(pts
+			(xy 88.9 35.56) (xy 91.44 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11d8b97a-2a6b-47e1-aeda-c76230d0d152")
+	)
+	(wire
+		(pts
+			(xy 97.79 49.53) (xy 88.9 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e1d3f0d-20f7-49f1-a74a-d44599aefe44")
+	)
+	(wire
+		(pts
+			(xy 114.3 62.23) (xy 123.19 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30f348eb-f054-4471-bb7a-7776b5d6b47b")
+	)
+	(wire
+		(pts
+			(xy 137.16 72.39) (xy 137.16 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42d6dc3f-db07-4bb0-8057-69e12fb4b05c")
+	)
+	(wire
+		(pts
+			(xy 66.04 35.56) (xy 76.2 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4395f404-95f4-4358-9987-cc6143e78723")
+	)
+	(wire
+		(pts
+			(xy 137.16 62.23) (xy 137.16 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eb65db3-4cd2-4325-bd0f-bc147ecc14b3")
+	)
+	(wire
+		(pts
+			(xy 100.33 49.53) (xy 100.33 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ec18933-34ab-423b-a0d7-8f629dd11a9e")
+	)
+	(wire
+		(pts
+			(xy 86.36 35.56) (xy 88.9 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c35f2b2-004a-4b4a-ba8f-8f7448793162")
+	)
+	(wire
+		(pts
+			(xy 100.33 62.23) (xy 106.68 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93e9f8c8-9eda-49bc-88bc-a6249377f218")
+	)
+	(wire
+		(pts
+			(xy 100.33 49.53) (xy 107.95 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1821219-8650-4a25-97f7-3737e4c863b5")
+	)
+	(wire
+		(pts
+			(xy 88.9 49.53) (xy 88.9 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b713ca0c-a7d7-4dd5-91ae-31fbbdd7dfbc")
+	)
+	(wire
+		(pts
+			(xy 115.57 49.53) (xy 119.38 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d664d515-7ee3-47a4-9bc6-602fce93eb85")
+	)
+	(wire
+		(pts
+			(xy 137.16 76.2) (xy 137.16 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6daaeca-0eb8-427d-9f7c-9a5c46e21b13")
+	)
+	(wire
+		(pts
+			(xy 110.49 35.56) (xy 107.95 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0f674c5-5b8d-40a8-b0b6-1a5fc05cc54a")
+	)
+	(wire
+		(pts
+			(xy 99.06 35.56) (xy 102.87 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3cb4f8a-6f6b-4bfd-a47d-7046ba312410")
+	)
+	(wire
+		(pts
+			(xy 125.73 62.23) (xy 137.16 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f598b03a-b87f-41ea-a986-9872eec8162a")
+	)
+	(hierarchical_label "V_Reg_In"
+		(shape input)
+		(at 66.04 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4ebdb9a8-0412-4430-997e-2101f0a4ed29")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 111.76 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1416c9d8-c5ef-4ac1-95f5-48126ac07c32")
+		(property "Reference" "R4"
+			(at 111.76 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "560"
+			(at 111.76 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+			(at 111.76 51.308 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 111.76 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8290dcd1-e1d2-4b1c-8924-d1a172537076")
+		)
+		(pin "2"
+			(uuid "b4ce0f1f-1d3f-415d-825b-68e4eb844570")
+		)
+		(instances
+			(project "Analog_Sandbox_PCB"
+				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/5f1ad39e-0f17-4880-9544-2cfbd63a3a10"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_Sandbox_PCB-eagle-import:CHIP-FLAT-Y_0603-0.35MM")
+		(at 121.92 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d0e8a20-3722-4f59-b99d-12bde059f53d")
+		(property "Reference" "D2"
+			(at 121.92 40.64 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 121.92 44.45 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder"
+			(at 121.92 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Yellow LED - Generic"
+			(at 121.92 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "fbb20b3d-fe26-4dad-9b09-d991018acd5e")
+		)
+		(pin "C"
+			(uuid "6325f9bd-6054-4672-818e-b334c2475142")
+		)
+		(instances
+			(project "Analog_Sandbox_PCB"
+				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/5f1ad39e-0f17-4880-9544-2cfbd63a3a10"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_Sandbox_PCB-eagle-import:CHIP-FLAT-Y_0603-0.35MM")
+		(at 105.41 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "552a7729-1018-4253-8931-104ade4306b9")
+		(property "Reference" "D1"
+			(at 105.41 26.67 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 105.41 30.48 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder"
+			(at 105.41 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Yellow LED - Generic"
+			(at 105.41 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "fe6d35ec-1550-4ad1-bd91-c19f0edd72af")
+		)
+		(pin "C"
+			(uuid "a1538cf3-7908-4173-80d4-aa8b33c60d6a")
+		)
+		(instances
+			(project ""
+				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/5f1ad39e-0f17-4880-9544-2cfbd63a3a10"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_Sandbox_PCB-eagle-import:DS01E")
+		(at 81.28 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57173241-793f-42e9-93cb-ac1956b59928")
+		(property "Reference" "S1"
+			(at 81.28 27.94 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+			)
+		)
+		(property "Value" "SWITCH"
+			(at 81.28 31.75 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+			)
+		)
+		(property "Footprint" "Analog_Sandbox_PCB:DS-01"
+			(at 81.28 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DIL/CODE Switch"
+			(at 81.28 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9152f936-377f-40d6-8e72-a70c2431a2c3")
+		)
+		(pin "2"
+			(uuid "56b5682b-0ae2-4084-bc7e-aa8dbfa3d82d")
+		)
+		(instances
+			(project ""
+				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/5f1ad39e-0f17-4880-9544-2cfbd63a3a10"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 127 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6391e518-2d8b-4f5f-9740-8986f625dbc8")
+		(property "Reference" "#PWR04"
+			(at 133.35 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 49.5299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "188038fa-4454-4bd8-8c00-6e55bce7d13e")
+		)
+		(instances
+			(project "Analog_Sandbox_PCB"
+				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/5f1ad39e-0f17-4880-9544-2cfbd63a3a10"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 110.49 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65b11ac5-f18f-4871-af2f-3c3374df8e66")
+		(property "Reference" "R5"
+			(at 110.49 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1000"
+			(at 110.49 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+			(at 110.49 64.008 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 110.49 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1da45d80-580f-47a9-b7a6-82acf43f2364")
+		)
+		(pin "2"
+			(uuid "320e39df-fffb-4b05-bc52-a2385b4a8712")
+		)
+		(instances
+			(project ""
+				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/5f1ad39e-0f17-4880-9544-2cfbd63a3a10"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 137.16 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b4ac543-310f-40b1-90f4-0a0433532e95")
+		(property "Reference" "#PWR05"
+			(at 137.16 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.16 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2010ba41-339c-421a-a0ab-88b1d7a19023")
+		)
+		(instances
+			(project "Analog_Sandbox_PCB"
+				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/5f1ad39e-0f17-4880-9544-2cfbd63a3a10"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 137.16 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4047b1b-2c51-4701-b080-5ced34dd7bf2")
+		(property "Reference" "R6"
+			(at 139.7 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2000"
+			(at 139.7 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+			(at 138.938 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 137.16 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4a896d2c-9fd6-4047-befc-c84cca9e2f05")
+		)
+		(pin "1"
+			(uuid "5adae41e-aaff-4eb2-ac39-9c9cec03e56e")
+		)
+		(instances
+			(project ""
+				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/5f1ad39e-0f17-4880-9544-2cfbd63a3a10"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_Sandbox_PCB-eagle-import:PAD")
+		(at 137.16 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a69e2ff6-a9af-470f-8fe4-2ee62ce4bb55")
+		(property "Reference" "J3"
+			(at 139.7 74.295 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PAD"
+			(at 139.7 78.105 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Analog_Sandbox_PCB:2.54_1.0"
+			(at 137.16 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Through-Hole Pad"
+			(at 137.16 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ba3ff32-5950-4f13-b84e-afd488b951ce")
+		)
+		(instances
+			(project "Analog_Sandbox_PCB"
+				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/5f1ad39e-0f17-4880-9544-2cfbd63a3a10"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_Sandbox_PCB-eagle-import:PAD")
+		(at 100.33 49.53 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae0257c8-ddf8-47f2-a692-098605e7d7a6")
+		(property "Reference" "J1"
+			(at 102.87 47.625 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PAD"
+			(at 102.87 51.435 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm"
+			(at 100.33 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Through-Hole Pad"
+			(at 100.33 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7db7cec6-1ef8-47b4-be55-c8cec126c48d")
+		)
+		(instances
+			(project ""
+				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/5f1ad39e-0f17-4880-9544-2cfbd63a3a10"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_Sandbox_PCB-eagle-import:PAD")
+		(at 125.73 62.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af643326-27d8-4a1e-bf5b-5139251460c3")
+		(property "Reference" "J2"
+			(at 128.27 60.325 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PAD"
+			(at 128.27 64.135 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Analog_Sandbox_PCB:2.54_1.0"
+			(at 125.73 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Through-Hole Pad"
+			(at 125.73 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7566f0a9-7d5c-404e-9d50-c725db0a16cc")
+		)
+		(instances
+			(project ""
+				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/5f1ad39e-0f17-4880-9544-2cfbd63a3a10"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 110.49 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bdf6c875-ceb8-481f-a5e0-79cb759c75f1")
+		(property "Reference" "#PWR03"
+			(at 116.84 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 35.5599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 110.49 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ddaf4ff-9788-4cbf-aab7-b34c0bac54d4")
+		)
+		(instances
+			(project ""
+				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/5f1ad39e-0f17-4880-9544-2cfbd63a3a10"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 95.25 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd1b0e2e-3a3e-4f68-9032-1a50eb908cb2")
+		(property "Reference" "R3"
+			(at 95.25 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "560"
+			(at 95.25 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+			(at 95.25 37.338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 95.25 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e3a5a88-7fff-44d3-83a1-f6b7db32dbae")
+		)
+		(pin "2"
+			(uuid "8f4cbac9-597e-4738-afe5-dd965bb52cc2")
+		)
+		(instances
+			(project ""
+				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/5f1ad39e-0f17-4880-9544-2cfbd63a3a10"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
