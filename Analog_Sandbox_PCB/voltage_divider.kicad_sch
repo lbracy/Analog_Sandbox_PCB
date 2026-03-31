@@ -718,34 +718,40 @@
 		)
 	)
 	(junction
+		(at 80.01 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03b903a1-ed25-448a-9446-7aedc9d9d3d1")
+	)
+	(junction
+		(at 96.52 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d5554b8-f020-4f48-abd1-e27fe2584aa1")
+	)
+	(junction
 		(at 96.52 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b246e51-a0f0-4caf-9242-6fb9c53120c4")
 	)
 	(junction
-		(at 96.52 59.69)
+		(at 96.52 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c2a84c70-61e0-427c-8a90-db6cf7bec11a")
+		(uuid "a4e4aadd-0b1c-4fd3-940f-e4693c535f7b")
+	)
+	(junction
+		(at 82.55 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1724909-0620-4017-8782-2ccd8cefd015")
 	)
 	(junction
 		(at 127 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce112bb3-b5a6-4b6d-ae65-0fa60f977368")
-	)
-	(junction
-		(at 96.52 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "db72c2a9-a503-4574-8697-2120a3a103af")
-	)
-	(junction
-		(at 78.74 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ef68b6dc-ca90-4a4d-bfa5-92e93139864e")
 	)
 	(junction
 		(at 80.01 26.67)
@@ -775,7 +781,17 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 93.98) (xy 78.74 93.98)
+			(xy 96.52 78.74) (xy 96.52 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aa5c55f-faf5-4a66-a10a-6368ac34673e")
+	)
+	(wire
+		(pts
+			(xy 72.39 93.98) (xy 82.55 93.98)
 		)
 		(stroke
 			(width 0)
@@ -795,17 +811,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 78.74) (xy 110.49 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f9dcd86-0e99-480d-a893-7730027e57cf")
-	)
-	(wire
-		(pts
-			(xy 80.01 41.91) (xy 80.01 26.67)
+			(xy 80.01 26.67) (xy 80.01 44.45)
 		)
 		(stroke
 			(width 0)
@@ -822,6 +828,16 @@
 			(type default)
 		)
 		(uuid "43720a08-7ba1-4ef3-a815-4620d20781e9")
+	)
+	(wire
+		(pts
+			(xy 96.52 59.69) (xy 110.49 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48a1d712-5e82-4318-85f0-6e021a88de5a")
 	)
 	(wire
 		(pts
@@ -845,16 +861,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 59.69) (xy 110.49 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c3fbe86-34eb-4337-b21f-c9379bfd2599")
-	)
-	(wire
-		(pts
 			(xy 96.52 57.15) (xy 96.52 59.69)
 		)
 		(stroke
@@ -875,6 +881,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 78.74) (xy 110.49 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d88bcc0-6297-4c13-b922-cab21ffb8c42")
+	)
+	(wire
+		(pts
 			(xy 80.01 44.45) (xy 96.52 44.45)
 		)
 		(stroke
@@ -882,6 +898,26 @@
 			(type default)
 		)
 		(uuid "7e8d7c9b-f79e-4ff9-a1a0-96d569ad7102")
+	)
+	(wire
+		(pts
+			(xy 96.52 59.69) (xy 96.52 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "915cd3fb-777d-4afd-ae5e-cdc193f55598")
+	)
+	(wire
+		(pts
+			(xy 82.55 93.98) (xy 96.52 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a84b08c-cc40-4665-a9d4-2abcc71aae3e")
 	)
 	(wire
 		(pts
@@ -902,26 +938,6 @@
 			(type default)
 		)
 		(uuid "a9669f70-c95a-4231-8362-ddc4ca2dc9fc")
-	)
-	(wire
-		(pts
-			(xy 96.52 78.74) (xy 96.52 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3fbec1f-de39-43f0-aa8f-9793dfa59d0e")
-	)
-	(wire
-		(pts
-			(xy 78.74 93.98) (xy 96.52 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be47b199-2ab6-41ea-b474-a4110d7171d2")
 	)
 	(wire
 		(pts
@@ -982,16 +998,6 @@
 			(type default)
 		)
 		(uuid "ea935914-7971-4f5b-a3dd-223f7bc4f0d2")
-	)
-	(wire
-		(pts
-			(xy 96.52 59.69) (xy 96.52 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f392d892-668b-4643-b76a-5112f340ccce")
 	)
 	(wire
 		(pts
@@ -1083,6 +1089,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Analog_Sandbox_PCB-eagle-import:PAD")
+		(at 93.98 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09fbc841-8e28-49c1-b58d-0c6dac85753f")
+		(property "Reference" "J5"
+			(at 93.98 71.12 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+			)
+		)
+		(property "Value" "PAD"
+			(at 93.98 74.93 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
+			(at 93.98 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Through-Hole Pad"
+			(at 93.98 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b86dc233-be32-43e2-b904-c2ee635e3591")
+		)
+		(instances
+			(project "Analog_Sandbox_PCB"
+				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/9c122918-2265-473b-8c84-35fbd0d69d38"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Analog_Sandbox_PCB-eagle-import:DS01E")
 		(at 115.57 59.69 0)
 		(unit 1)
@@ -1108,7 +1179,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Analog_Sandbox_PCB:DS-01"
+		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx01_Slide_9.78x4.72mm_W7.62mm_P2.54mm"
 			(at 115.57 59.69 0)
 			(effects
 				(font
@@ -1151,33 +1222,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Analog_Sandbox_PCB-eagle-import:DS01E")
-		(at 115.57 78.74 0)
+		(lib_id "Analog_Sandbox_PCB-eagle-import:PAD")
+		(at 80.01 46.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "20a31548-83ed-4129-ba83-f4c9f3c004b0")
-		(property "Reference" "S3"
-			(at 115.57 71.12 0)
+		(uuid "24af2dc6-2016-43c5-b886-5aec371ff5fa")
+		(property "Reference" "J7"
+			(at 82.55 45.085 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "SWITCH"
-			(at 115.57 74.93 0)
+		(property "Value" "PAD"
+			(at 82.55 48.895 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Analog_Sandbox_PCB:DS-01"
-			(at 115.57 78.74 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
+			(at 80.01 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1186,7 +1259,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 78.74 0)
+			(at 80.01 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1194,25 +1267,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DIL/CODE Switch"
-			(at 115.57 78.74 0)
+		(property "Description" "Through-Hole Pad"
+			(at 80.01 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "fffd593c-c0ca-4e1c-b956-f241a3f371dc")
 		)
 		(pin "1"
-			(uuid "9fd6cb68-7e3c-4318-b5f6-9df74301dd8b")
+			(uuid "495b4d10-437b-4d1e-9ca7-bb5d1dd69922")
 		)
 		(instances
-			(project ""
+			(project "Analog_Sandbox_PCB"
 				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/9c122918-2265-473b-8c84-35fbd0d69d38"
-					(reference "S3")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -1244,7 +1314,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 90.17 28.448 90)
 			(effects
 				(font
@@ -1314,7 +1384,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 94.742 68.58 90)
 			(effects
 				(font
@@ -1357,35 +1427,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Analog_Sandbox_PCB-eagle-import:PAD")
-		(at 80.01 41.91 270)
+		(lib_id "Analog_Sandbox_PCB-eagle-import:DS01E")
+		(at 115.57 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4f173d52-8963-448e-b9fd-386e386f1ba9")
-		(property "Reference" "J4"
-			(at 82.55 40.005 90)
+		(uuid "4744718e-fd33-462d-a0fa-e532c8748598")
+		(property "Reference" "S3"
+			(at 115.57 71.12 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "PAD"
-			(at 82.55 43.815 90)
+		(property "Value" "SWITCH"
+			(at 115.57 74.93 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Analog_Sandbox_PCB:2.54_1.0"
-			(at 80.01 41.91 0)
+		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx01_Slide_9.78x4.72mm_W7.62mm_P2.54mm"
+			(at 115.57 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1394,7 +1462,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 41.91 0)
+			(at 115.57 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1402,8 +1470,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Through-Hole Pad"
-			(at 80.01 41.91 0)
+		(property "Description" "DIL/CODE Switch"
+			(at 115.57 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1412,10 +1480,80 @@
 			)
 		)
 		(pin "1"
-			(uuid "3ef361a1-0acc-4430-b614-d8577b7f7ea1")
+			(uuid "0d45b4e4-ba92-477f-8742-58506abefb17")
+		)
+		(pin "2"
+			(uuid "6cda7f8b-530a-42b3-9f03-b62024dab1dc")
 		)
 		(instances
-			(project ""
+			(project "Analog_Sandbox_PCB"
+				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/9c122918-2265-473b-8c84-35fbd0d69d38"
+					(reference "S3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_Sandbox_PCB-eagle-import:PAD")
+		(at 82.55 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "506b97ee-37f3-42eb-ada8-7e7dd7deb8ef")
+		(property "Reference" "J4"
+			(at 85.09 94.615 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PAD"
+			(at 85.09 98.425 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
+			(at 82.55 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Through-Hole Pad"
+			(at 82.55 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0d432cd-056d-47ff-a559-da76a6c3530d")
+		)
+		(instances
+			(project "Analog_Sandbox_PCB"
 				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/9c122918-2265-473b-8c84-35fbd0d69d38"
 					(reference "J4")
 					(unit 1)
@@ -1562,73 +1700,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Analog_Sandbox_PCB-eagle-import:PAD")
-		(at 99.06 59.69 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "750caab0-5a55-4c57-a4cd-432ab45267b6")
-		(property "Reference" "J5"
-			(at 101.6 57.785 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PAD"
-			(at 101.6 61.595 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Analog_Sandbox_PCB:2.54_1.0"
-			(at 99.06 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Through-Hole Pad"
-			(at 99.06 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "954b4b3d-a2d8-48de-a59e-9078b145da4c")
-		)
-		(instances
-			(project "Analog_Sandbox_PCB"
-				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/9c122918-2265-473b-8c84-35fbd0d69d38"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 105.41 26.67 90)
 		(unit 1)
@@ -1690,73 +1761,6 @@
 			(project "Analog_Sandbox_PCB"
 				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/9c122918-2265-473b-8c84-35fbd0d69d38"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Analog_Sandbox_PCB-eagle-import:PAD")
-		(at 99.06 78.74 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "912761f7-0515-4b3e-ae95-ff470c70f309")
-		(property "Reference" "J6"
-			(at 101.6 76.835 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PAD"
-			(at 101.6 80.645 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Analog_Sandbox_PCB:2.54_1.0"
-			(at 99.06 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Through-Hole Pad"
-			(at 99.06 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "705b7cd4-2ae4-4b36-b87a-75a3ee06b9b0")
-		)
-		(instances
-			(project "Analog_Sandbox_PCB"
-				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/9c122918-2265-473b-8c84-35fbd0d69d38"
-					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -1927,7 +1931,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 94.742 53.34 90)
 			(effects
 				(font
@@ -1964,73 +1968,6 @@
 			(project ""
 				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/9c122918-2265-473b-8c84-35fbd0d69d38"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Analog_Sandbox_PCB-eagle-import:PAD")
-		(at 78.74 96.52 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "be45e09e-e9a3-451f-bf76-234bad66134e")
-		(property "Reference" "J7"
-			(at 81.28 94.615 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PAD"
-			(at 81.28 98.425 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Analog_Sandbox_PCB:2.54_1.0"
-			(at 78.74 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Through-Hole Pad"
-			(at 78.74 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6230c28f-5740-4f81-9ed1-c14843cf76c0")
-		)
-		(instances
-			(project "Analog_Sandbox_PCB"
-				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/9c122918-2265-473b-8c84-35fbd0d69d38"
-					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -2101,6 +2038,71 @@
 			(project ""
 				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/9c122918-2265-473b-8c84-35fbd0d69d38"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_Sandbox_PCB-eagle-import:PAD")
+		(at 93.98 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e10cbee7-5a24-42be-adcc-e6f914f3db78")
+		(property "Reference" "J6"
+			(at 93.98 52.07 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+			)
+		)
+		(property "Value" "PAD"
+			(at 93.98 55.88 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
+			(at 93.98 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Through-Hole Pad"
+			(at 93.98 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4475bf6a-5162-49dd-9ddf-f6302cbbb20b")
+		)
+		(instances
+			(project "Analog_Sandbox_PCB"
+				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/9c122918-2265-473b-8c84-35fbd0d69d38"
+					(reference "J6")
 					(unit 1)
 				)
 			)

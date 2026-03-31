@@ -1986,7 +1986,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Analog_Sandbox_PCB:TO92260P521H934-3"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
 			(at 93.98 71.12 0)
 			(effects
 				(font
