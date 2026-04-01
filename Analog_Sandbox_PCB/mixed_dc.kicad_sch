@@ -1206,6 +1206,12 @@
 		(uuid "0aa9f825-62ac-457a-8061-9ffb2e87963e")
 	)
 	(junction
+		(at 67.31 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2622f1d1-77a8-4447-90b1-3275a421f1ad")
+	)
+	(junction
 		(at 86.36 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1218,26 +1224,78 @@
 		(uuid "7e7af642-e5bb-45b2-8fd6-4d7913230273")
 	)
 	(junction
+		(at 114.3 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83c6ffc5-04c6-4d3a-884e-5f04b265ec4d")
+	)
+	(junction
+		(at 96.52 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a7a6fc4-a730-4bdf-94f9-85ff339e7924")
+	)
+	(junction
 		(at 80.01 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9dbd1440-6698-4e38-a880-f737dfc71c59")
 	)
 	(junction
-		(at 125.73 46.99)
+		(at 96.52 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ac351c70-095f-4cc6-8249-87b2bf659e27")
+		(uuid "c376ad6f-fe84-4527-a35e-0deedfefa3ed")
 	)
 	(wire
 		(pts
-			(xy 125.73 46.99) (xy 133.35 46.99)
+			(xy 67.31 93.98) (xy 86.36 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "02fb9579-1d24-49a1-8e15-7213e87e620d")
+		(uuid "0883a355-69e2-4751-8855-1968d6b1c1ff")
+	)
+	(wire
+		(pts
+			(xy 114.3 46.99) (xy 115.57 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "091c280c-ea9e-4d09-a37e-d025ec33e91b")
+	)
+	(wire
+		(pts
+			(xy 96.52 93.98) (xy 110.49 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14c72772-32da-41ff-98c7-bc164af0f6b0")
+	)
+	(wire
+		(pts
+			(xy 96.52 64.77) (xy 96.52 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19a942f3-ba0b-4959-b218-2e6b73bd77ed")
+	)
+	(wire
+		(pts
+			(xy 129.54 57.15) (xy 133.35 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19fbf9e1-4dc5-481d-99ae-43d2678c4d51")
 	)
 	(wire
 		(pts
@@ -1271,13 +1329,63 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 46.99) (xy 125.73 46.99)
+			(xy 67.31 69.85) (xy 67.31 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39b3f5cb-1053-494a-85dd-26e710d4703c")
+	)
+	(wire
+		(pts
+			(xy 96.52 46.99) (xy 101.6 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45be47bf-6b7a-4411-bc06-83acab8903e3")
+	)
+	(wire
+		(pts
+			(xy 95.25 74.93) (xy 96.52 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "487bd95d-16f7-4e2d-92eb-67da65529dd0")
+	)
+	(wire
+		(pts
+			(xy 67.31 86.36) (xy 67.31 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53da7c2d-b03a-4809-ae7c-b1515205b2b5")
+	)
+	(wire
+		(pts
+			(xy 124.46 46.99) (xy 133.35 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "54e6298c-0398-4ead-874c-76d1d05ffa18")
+	)
+	(wire
+		(pts
+			(xy 95.25 64.77) (xy 96.52 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fefe50f-9aa9-45da-9a9f-40f75646c61f")
 	)
 	(wire
 		(pts
@@ -1311,7 +1419,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 46.99) (xy 115.57 46.99)
+			(xy 109.22 46.99) (xy 114.3 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1321,13 +1429,23 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 46.99) (xy 101.6 46.99)
+			(xy 88.9 46.99) (xy 96.52 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8815ae65-180c-437a-9e78-37168ee5a8f1")
+	)
+	(wire
+		(pts
+			(xy 133.35 77.47) (xy 137.16 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "885fb276-7c08-4247-ae39-05d6bab9f49d")
 	)
 	(wire
 		(pts
@@ -1371,7 +1489,17 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 93.98) (xy 110.49 93.98)
+			(xy 96.52 74.93) (xy 96.52 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d12d80da-adfb-4f21-b09c-e615d575554f")
+	)
+	(wire
+		(pts
+			(xy 86.36 93.98) (xy 96.52 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1391,7 +1519,27 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 93.98) (xy 86.36 93.98)
+			(xy 69.85 69.85) (xy 67.31 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f095d4a2-7158-483f-a262-2579140e0486")
+	)
+	(wire
+		(pts
+			(xy 129.54 67.31) (xy 129.54 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4e122d3-812a-4b93-ba71-19e0e7ed4eb8")
+	)
+	(wire
+		(pts
+			(xy 62.23 93.98) (xy 67.31 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1419,6 +1567,74 @@
 			(justify right)
 		)
 		(uuid "0417f5c3-8caf-4b85-b1a1-3df12c47555c")
+	)
+	(symbol
+		(lib_id "Analog_Sandbox_PCB-eagle-import:DS01E")
+		(at 119.38 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07b9858f-d5e0-4ff8-b738-711df3d49375")
+		(property "Reference" "S6"
+			(at 119.38 39.37 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+			)
+		)
+		(property "Value" "SWITCH"
+			(at 119.38 43.18 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx01_Slide_9.78x4.72mm_W7.62mm_P2.54mm"
+			(at 119.38 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DIL/CODE Switch"
+			(at 119.38 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c315a10-169f-48d5-b503-8d26bcacbb42")
+		)
+		(pin "2"
+			(uuid "fbf58b3b-6df8-459a-8ddd-b7ada2fe69d3")
+		)
+		(instances
+			(project "Analog_Sandbox_PCB"
+				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/1ffce373-b0c0-4221-ae7b-13552ac0c0a1"
+					(reference "S6")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Analog_Sandbox_PCB-eagle-import:PAD")
@@ -1556,15 +1772,16 @@
 	)
 	(symbol
 		(lib_id "Analog_Sandbox_PCB-eagle-import:DS01E")
-		(at 115.57 93.98 180)
+		(at 115.57 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "457f594b-1d33-4b81-b379-2d044d90f7ab")
+		(fields_autoplaced yes)
+		(uuid "4da8866d-1a6b-401d-b319-51b3416f0b57")
 		(property "Reference" "S7"
-			(at 115.57 87.63 0)
+			(at 115.57 86.36 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -1572,14 +1789,14 @@
 			)
 		)
 		(property "Value" "SWITCH"
-			(at 115.57 91.44 0)
+			(at 115.57 90.17 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 			)
 		)
-		(property "Footprint" "Analog_Sandbox_PCB:DS-01"
+		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx01_Slide_9.78x4.72mm_W7.62mm_P2.54mm"
 			(at 115.57 93.98 0)
 			(effects
 				(font
@@ -1606,11 +1823,11 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "a780f826-7fd4-4a78-9f1a-316cc2b4e9ce")
-		)
 		(pin "1"
-			(uuid "ba559d75-4910-4e99-a760-7ac4bc44f3dd")
+			(uuid "1b45998c-c7a4-43f7-9389-89932cdce7bc")
+		)
+		(pin "2"
+			(uuid "8254dd6c-ce04-40dc-993b-f1def3f4af00")
 		)
 		(instances
 			(project "Analog_Sandbox_PCB"
@@ -1891,33 +2108,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Analog_Sandbox_PCB-eagle-import:DS01E")
-		(at 73.66 29.21 0)
+		(lib_id "Device:R")
+		(at 67.31 82.55 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bdcba311-7996-465a-b969-2e42a9f1a41d")
-		(property "Reference" "S5"
-			(at 73.66 21.59 0)
+		(uuid "b953eec1-edb1-41e7-add7-d45bf7eded39")
+		(property "Reference" "R20"
+			(at 69.85 81.2799 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "SWITCH"
-			(at 73.66 25.4 0)
+		(property "Value" "34"
+			(at 69.85 83.8199 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Analog_Sandbox_PCB:DS-01"
-			(at 73.66 29.21 0)
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+			(at 69.088 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1925,8 +2144,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 73.66 29.21 0)
+		(property "Datasheet" "~"
+			(at 67.31 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1934,25 +2153,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DIL/CODE Switch"
-			(at 73.66 29.21 0)
+		(property "Description" "Resistor"
+			(at 67.31 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "21fc8ecc-73a8-421d-b89b-49945de40c5b")
 		)
 		(pin "1"
-			(uuid "637b4c6e-fd41-42b1-aa7b-968e2b7b1ca8")
+			(uuid "e3bb4108-516d-4c7d-88a5-2580bbce4513")
+		)
+		(pin "2"
+			(uuid "e7b71f88-5040-4a07-9352-139f09df01e1")
 		)
 		(instances
 			(project "Analog_Sandbox_PCB"
 				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/1ffce373-b0c0-4221-ae7b-13552ac0c0a1"
-					(reference "S5")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -1960,7 +2179,7 @@
 	)
 	(symbol
 		(lib_id "Analog_Sandbox_PCB-eagle-import:LM334Z/LFT1")
-		(at 93.98 71.12 270)
+		(at 82.55 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1969,25 +2188,23 @@
 		(fields_autoplaced yes)
 		(uuid "bee77f9a-f255-42db-8432-184269259f15")
 		(property "Reference" "U1"
-			(at 102.87 69.215 90)
+			(at 82.55 55.88 0)
 			(effects
 				(font
 					(size 2.0828 1.7703)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "Current Source"
-			(at 102.87 73.025 90)
+			(at 82.55 59.69 0)
 			(effects
 				(font
 					(size 2.0828 1.7703)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
-			(at 93.98 71.12 0)
+			(at 82.55 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1996,7 +2213,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 71.12 0)
+			(at 82.55 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2005,7 +2222,7 @@
 			)
 		)
 		(property "Description" "https://pricing.snapeda.com/parts/LM334Z/LFT1/Texas%20Instruments/view-part?ref=eda Check availability"
-			(at 93.98 71.12 0)
+			(at 82.55 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2026,74 +2243,6 @@
 			(project ""
 				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/1ffce373-b0c0-4221-ae7b-13552ac0c0a1"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Analog_Sandbox_PCB-eagle-import:DS01E")
-		(at 120.65 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c6c46fa5-26d3-43d2-a4cd-195a123f8069")
-		(property "Reference" "S6"
-			(at 120.65 39.37 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-			)
-		)
-		(property "Value" "SWITCH"
-			(at 120.65 43.18 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-			)
-		)
-		(property "Footprint" "Analog_Sandbox_PCB:DS-01"
-			(at 120.65 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DIL/CODE Switch"
-			(at 120.65 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "45f2dfeb-d179-456b-a009-0145285c66f9")
-		)
-		(pin "1"
-			(uuid "dd40c6c9-c36b-417f-b75f-0347b290461a")
-		)
-		(instances
-			(project "Analog_Sandbox_PCB"
-				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/1ffce373-b0c0-4221-ae7b-13552ac0c0a1"
-					(reference "S6")
 					(unit 1)
 				)
 			)
@@ -2169,7 +2318,7 @@
 	)
 	(symbol
 		(lib_id "Analog_Sandbox_PCB-eagle-import:3362P-1-102LF")
-		(at 133.35 67.31 270)
+		(at 137.16 67.31 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2178,7 +2327,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce30dc23-881f-4903-a2d8-e3d9bd798907")
 		(property "Reference" "VR2"
-			(at 135.89 65.4049 90)
+			(at 139.7 65.4049 90)
 			(effects
 				(font
 					(size 1.7825 1.5151)
@@ -2187,7 +2336,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 135.89 69.2149 90)
+			(at 139.7 69.2149 90)
 			(effects
 				(font
 					(size 1.7848 1.517)
@@ -2196,7 +2345,7 @@
 			)
 		)
 		(property "Footprint" "Analog_Sandbox_PCB:TRIM_3362P-1-102LF"
-			(at 133.35 67.31 0)
+			(at 137.16 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2205,7 +2354,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 67.31 0)
+			(at 137.16 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2214,7 +2363,7 @@
 			)
 		)
 		(property "Description" "https://pricing.snapeda.com/parts/3362P-1-102%20LF/Bourns/view-part?ref=eda Check availability"
-			(at 133.35 67.31 0)
+			(at 137.16 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2232,7 +2381,7 @@
 			(uuid "4cc6cad9-65fb-480d-8b07-7ea76fd6c91b")
 		)
 		(instances
-			(project ""
+			(project "Analog_Sandbox_PCB"
 				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/1ffce373-b0c0-4221-ae7b-13552ac0c0a1"
 					(reference "VR2")
 					(unit 1)
@@ -2369,6 +2518,74 @@
 			(project ""
 				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/1ffce373-b0c0-4221-ae7b-13552ac0c0a1"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_Sandbox_PCB-eagle-import:DS01E")
+		(at 73.66 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb9e3968-9cb8-4e88-8483-654eca0f5a15")
+		(property "Reference" "S5"
+			(at 73.66 21.59 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+			)
+		)
+		(property "Value" "SWITCH"
+			(at 73.66 25.4 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx01_Slide_9.78x4.72mm_W7.62mm_P2.54mm"
+			(at 73.66 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DIL/CODE Switch"
+			(at 73.66 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7f8335a-bc15-43a0-973c-923a3df52dfc")
+		)
+		(pin "2"
+			(uuid "3c0468ce-2b57-44a5-843f-198e7949daec")
+		)
+		(instances
+			(project "Analog_Sandbox_PCB"
+				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/1ffce373-b0c0-4221-ae7b-13552ac0c0a1"
+					(reference "S5")
 					(unit 1)
 				)
 			)

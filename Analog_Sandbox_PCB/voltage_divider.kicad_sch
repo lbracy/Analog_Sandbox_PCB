@@ -1155,16 +1155,16 @@
 	)
 	(symbol
 		(lib_id "Analog_Sandbox_PCB-eagle-import:DS01E")
-		(at 115.57 59.69 0)
+		(at 115.57 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "135a0a73-9372-4fcc-aded-b38b12ef40c3")
-		(property "Reference" "S2"
-			(at 115.57 52.07 0)
+		(uuid "20ba4259-7604-4351-9235-a24caa581f6f")
+		(property "Reference" "S3"
+			(at 115.57 71.12 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -1172,7 +1172,7 @@
 			)
 		)
 		(property "Value" "SWITCH"
-			(at 115.57 55.88 0)
+			(at 115.57 74.93 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -1180,7 +1180,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx01_Slide_9.78x4.72mm_W7.62mm_P2.54mm"
-			(at 115.57 59.69 0)
+			(at 115.57 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1189,7 +1189,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 59.69 0)
+			(at 115.57 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1198,7 +1198,7 @@
 			)
 		)
 		(property "Description" "DIL/CODE Switch"
-			(at 115.57 59.69 0)
+			(at 115.57 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1207,15 +1207,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "d362346b-dc89-4ff4-ac8d-9c208347443f")
+			(uuid "f3157bb8-3ad3-49f9-a3be-99c1d2cc8ff2")
 		)
 		(pin "2"
-			(uuid "d77b1dc6-2889-4862-acd8-ffc1ac4ead92")
+			(uuid "f0c22bc2-3aaf-4c9e-846d-9a725b0fb815")
 		)
 		(instances
-			(project ""
+			(project "Analog_Sandbox_PCB"
 				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/9c122918-2265-473b-8c84-35fbd0d69d38"
-					(reference "S2")
+					(reference "S3")
 					(unit 1)
 				)
 			)
@@ -1428,16 +1428,16 @@
 	)
 	(symbol
 		(lib_id "Analog_Sandbox_PCB-eagle-import:DS01E")
-		(at 115.57 78.74 0)
+		(at 63.5 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4744718e-fd33-462d-a0fa-e532c8748598")
-		(property "Reference" "S3"
-			(at 115.57 71.12 0)
+		(uuid "5044d65b-e1f4-4a1e-aaff-219de2d705b1")
+		(property "Reference" "S4"
+			(at 63.5 19.05 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -1445,7 +1445,7 @@
 			)
 		)
 		(property "Value" "SWITCH"
-			(at 115.57 74.93 0)
+			(at 63.5 22.86 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -1453,7 +1453,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx01_Slide_9.78x4.72mm_W7.62mm_P2.54mm"
-			(at 115.57 78.74 0)
+			(at 63.5 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1462,7 +1462,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 78.74 0)
+			(at 63.5 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1471,7 +1471,7 @@
 			)
 		)
 		(property "Description" "DIL/CODE Switch"
-			(at 115.57 78.74 0)
+			(at 63.5 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1480,15 +1480,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "0d45b4e4-ba92-477f-8742-58506abefb17")
+			(uuid "adcb5440-de65-4715-96cd-c6fc49fa3564")
 		)
 		(pin "2"
-			(uuid "6cda7f8b-530a-42b3-9f03-b62024dab1dc")
+			(uuid "0f84a8c6-50c2-431b-80cd-f23b256d89bb")
 		)
 		(instances
 			(project "Analog_Sandbox_PCB"
 				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/9c122918-2265-473b-8c84-35fbd0d69d38"
-					(reference "S3")
+					(reference "S4")
 					(unit 1)
 				)
 			)
@@ -1562,6 +1562,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Analog_Sandbox_PCB-eagle-import:DS01E")
+		(at 115.57 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58eeab4a-34c6-4b77-a5c1-6baaf43239be")
+		(property "Reference" "S2"
+			(at 115.57 52.07 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+			)
+		)
+		(property "Value" "SWITCH"
+			(at 115.57 55.88 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx01_Slide_9.78x4.72mm_W7.62mm_P2.54mm"
+			(at 115.57 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DIL/CODE Switch"
+			(at 115.57 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e65a2f8-6d6b-408a-919d-c8507659b808")
+		)
+		(pin "2"
+			(uuid "b4334832-b04b-470d-b3d0-28fe6c57a13c")
+		)
+		(instances
+			(project "Analog_Sandbox_PCB"
+				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/9c122918-2265-473b-8c84-35fbd0d69d38"
+					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 96.52 86.36 0)
 		(unit 1)
@@ -1626,74 +1694,6 @@
 			(project ""
 				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/9c122918-2265-473b-8c84-35fbd0d69d38"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Analog_Sandbox_PCB-eagle-import:DS01E")
-		(at 63.5 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7301126f-573d-4091-99c8-cd6f256a702e")
-		(property "Reference" "S4"
-			(at 63.5 19.05 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-			)
-		)
-		(property "Value" "SWITCH"
-			(at 63.5 22.86 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-			)
-		)
-		(property "Footprint" "Analog_Sandbox_PCB:DS-01"
-			(at 63.5 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DIL/CODE Switch"
-			(at 63.5 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "502301e8-8408-43d7-a9ae-2871f85a6a2e")
-		)
-		(pin "1"
-			(uuid "4b9c8620-d79b-40b2-bd98-b843ea41d685")
-		)
-		(instances
-			(project "Analog_Sandbox_PCB"
-				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/9c122918-2265-473b-8c84-35fbd0d69d38"
-					(reference "S4")
 					(unit 1)
 				)
 			)
