@@ -324,258 +324,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Analog_Sandbox_PCB-eagle-import:CHIP-FLAT-Y_0603-0.35MM"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Value" ""
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-				)
-			)
-			(property "Footprint" "Analog_Sandbox_PCB:LEDC1608X35N_FLAT-Y"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Yellow LED - Generic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "CHIP-FLAT-Y_0603-0.35MM_1_0"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.381 2.286) (xy -0.2922 1.6076)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.381 2.286) (xy -0.127 2.286)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.381 1.778) (xy 0.381 2.286)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.143 1.905) (xy 0.4697 1.2266)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.143 1.905) (xy 0.635 1.905)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.143 1.397) (xy 1.143 1.905)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.397 1.27) (xy 1.397 -1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 0 0)
-					(length 0)
-					(name "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 0)
-					(name "C"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "C"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Analog_Sandbox_PCB-eagle-import:DS01E"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -973,6 +721,189 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1200,6 +1131,12 @@
 		)
 	)
 	(junction
+		(at 114.3 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04e7b8ac-b138-4cd9-840d-85efac24111c")
+	)
+	(junction
 		(at 80.01 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1224,10 +1161,10 @@
 		(uuid "7e7af642-e5bb-45b2-8fd6-4d7913230273")
 	)
 	(junction
-		(at 114.3 46.99)
+		(at 106.68 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "83c6ffc5-04c6-4d3a-884e-5f04b265ec4d")
+		(uuid "7f75c89f-bc9c-4e98-ad04-dd30603bb7d6")
 	)
 	(junction
 		(at 96.52 93.98)
@@ -1247,6 +1184,12 @@
 		(color 0 0 0 0)
 		(uuid "c376ad6f-fe84-4527-a35e-0deedfefa3ed")
 	)
+	(junction
+		(at 133.35 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d327b7cf-ab05-4ddc-a7a1-87bda62691f2")
+	)
 	(wire
 		(pts
 			(xy 67.31 93.98) (xy 86.36 93.98)
@@ -1256,16 +1199,6 @@
 			(type default)
 		)
 		(uuid "0883a355-69e2-4751-8855-1968d6b1c1ff")
-	)
-	(wire
-		(pts
-			(xy 114.3 46.99) (xy 115.57 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "091c280c-ea9e-4d09-a37e-d025ec33e91b")
 	)
 	(wire
 		(pts
@@ -1299,7 +1232,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 29.21) (xy 107.95 29.21)
+			(xy 104.14 29.21) (xy 106.68 29.21)
 		)
 		(stroke
 			(width 0)
@@ -1369,7 +1302,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 46.99) (xy 133.35 46.99)
+			(xy 121.92 46.99) (xy 133.35 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1399,7 +1332,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 29.21) (xy 113.03 29.21)
+			(xy 115.57 29.21) (xy 114.3 29.21)
 		)
 		(stroke
 			(width 0)
@@ -1419,13 +1352,23 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 46.99) (xy 114.3 46.99)
+			(xy 114.3 29.21) (xy 113.03 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8537530a-15cb-4df7-9a8f-0816e4535dd8")
+		(uuid "8406f714-f3b5-4f32-9118-413c88ed9153")
+	)
+	(wire
+		(pts
+			(xy 106.68 29.21) (xy 107.95 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8773b5c6-5768-4b1d-8afb-32b7d1fd8532")
 	)
 	(wire
 		(pts
@@ -1449,7 +1392,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 77.47) (xy 133.35 91.44)
+			(xy 133.35 77.47) (xy 133.35 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1486,6 +1429,16 @@
 			(type default)
 		)
 		(uuid "c96f46f1-cb8b-429d-8f43-3f8a6de11596")
+	)
+	(wire
+		(pts
+			(xy 109.22 46.99) (xy 111.76 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd1faf0b-3dd0-4f6d-a7a8-4ac4ca776bbd")
 	)
 	(wire
 		(pts
@@ -1570,7 +1523,7 @@
 	)
 	(symbol
 		(lib_id "Analog_Sandbox_PCB-eagle-import:DS01E")
-		(at 119.38 46.99 0)
+		(at 116.84 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1579,7 +1532,7 @@
 		(fields_autoplaced yes)
 		(uuid "07b9858f-d5e0-4ff8-b738-711df3d49375")
 		(property "Reference" "S6"
-			(at 119.38 39.37 0)
+			(at 116.84 39.37 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -1587,7 +1540,7 @@
 			)
 		)
 		(property "Value" "SWITCH"
-			(at 119.38 43.18 0)
+			(at 116.84 43.18 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -1595,7 +1548,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx01_Slide_9.78x4.72mm_W7.62mm_P2.54mm"
-			(at 119.38 46.99 0)
+			(at 116.84 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1604,7 +1557,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 46.99 0)
+			(at 116.84 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1613,7 +1566,7 @@
 			)
 		)
 		(property "Description" "DIL/CODE Switch"
-			(at 119.38 46.99 0)
+			(at 116.84 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2126,7 +2079,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "34"
+		(property "Value" "33"
 			(at 69.85 83.8199 0)
 			(effects
 				(font
@@ -2249,74 +2202,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Analog_Sandbox_PCB-eagle-import:CHIP-FLAT-Y_0603-0.35MM")
-		(at 110.49 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c997a837-57a6-4639-a4b3-05f0615d3a40")
-		(property "Reference" "D4"
-			(at 110.49 20.32 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 110.49 24.13 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder"
-			(at 110.49 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Yellow LED - Generic"
-			(at 110.49 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A"
-			(uuid "cddf9c0d-ba80-4d34-9cff-c3e4da56390f")
-		)
-		(pin "C"
-			(uuid "c4f81ca4-b570-4c4f-9fee-d7e68690f0e5")
-		)
-		(instances
-			(project "Analog_Sandbox_PCB"
-				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/1ffce373-b0c0-4221-ae7b-13552ac0c0a1"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Analog_Sandbox_PCB-eagle-import:3362P-1-102LF")
 		(at 137.16 67.31 270)
 		(unit 1)
@@ -2344,7 +2229,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Analog_Sandbox_PCB:TRIM_3362P-1-102LF"
+		(property "Footprint" "TRIM_3362P-1-102LF_vf.A5S3VpQGRRqLSuxbPYtLvA"
 			(at 137.16 67.31 0)
 			(effects
 				(font
@@ -2417,7 +2302,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Analog_Sandbox_PCB:2.54_1.0"
+		(property "Footprint" "2.54_1.0_16378166"
 			(at 86.36 96.52 0)
 			(effects
 				(font
@@ -2451,6 +2336,83 @@
 			(project "Analog_Sandbox_PCB"
 				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/1ffce373-b0c0-4221-ae7b-13552ac0c0a1"
 					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 110.49 29.21 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e478ed4f-f0ef-4806-b25f-4f1db05bceaa")
+		(property "Reference" "D4"
+			(at 112.0775 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 112.0775 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
+			(at 110.49 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 110.49 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 110.49 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b1b4831-5fd4-459f-95af-394d66a3a67a")
+		)
+		(pin "2"
+			(uuid "426d7136-ce0a-4bc6-b177-8f8ed4a1d9cc")
+		)
+		(instances
+			(project "Analog_Sandbox_PCB"
+				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/1ffce373-b0c0-4221-ae7b-13552ac0c0a1"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -2593,7 +2555,7 @@
 	)
 	(symbol
 		(lib_id "Analog_Sandbox_PCB-eagle-import:PAD")
-		(at 133.35 93.98 90)
+		(at 133.35 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2602,7 +2564,7 @@
 		(fields_autoplaced yes)
 		(uuid "fbabf732-f27e-4000-8112-5380f0fef2a7")
 		(property "Reference" "J9"
-			(at 135.89 92.075 90)
+			(at 135.89 93.345 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -2611,7 +2573,7 @@
 			)
 		)
 		(property "Value" "PAD"
-			(at 135.89 95.885 90)
+			(at 135.89 97.155 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -2620,7 +2582,7 @@
 			)
 		)
 		(property "Footprint" "Analog_Sandbox_PCB:2.54_1.0"
-			(at 133.35 93.98 0)
+			(at 133.35 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2629,7 +2591,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 93.98 0)
+			(at 133.35 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2638,7 +2600,7 @@
 			)
 		)
 		(property "Description" "Through-Hole Pad"
-			(at 133.35 93.98 0)
+			(at 133.35 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)

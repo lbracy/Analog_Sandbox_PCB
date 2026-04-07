@@ -1258,7 +1258,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Analog_Sandbox_PCB:TO254P1054X470X1955-3"
+		(property "Footprint" "TRIM_3362P-1-102LF_vf.A5S3VpQGRRqLSuxbPYtLvA"
 			(at 69.85 80.01 0)
 			(effects
 				(font
@@ -1835,7 +1835,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "645f0e55-7cc6-4abc-86ac-4ed010d74420")
-		(property "Sheetname" "DC Time Constant"
+		(property "Sheetname" "RC Time Constant"
 			(at 157.48 117.3984 0)
 			(effects
 				(font
