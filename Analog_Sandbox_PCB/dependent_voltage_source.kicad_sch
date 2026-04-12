@@ -5,47 +5,50 @@
 	(uuid "c396cc09-e9d1-49d5-9b22-7c02699ae3b1")
 	(paper "A5")
 	(lib_symbols
-		(symbol "Analog_Sandbox_PCB-eagle-import:3362P-1-102LF"
+		(symbol "3362p:3362P-1-103LF"
+			(pin_names
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "VR"
-				(at -10.1818 2.5465 0)
+			(property "Reference" "R"
+				(at 10.795 -3.175 0)
 				(effects
 					(font
-						(size 1.7825 1.5151)
+						(size 1.524 1.524)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Value" ""
-				(at -10.1645 -7.6422 0)
+			(property "Value" "3362P-1-103LF"
+				(at 10.795 -6.35 0)
 				(effects
 					(font
-						(size 1.7848 1.517)
+						(size 1.524 1.524)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Footprint" "Analog_Sandbox_PCB:TRIM_3362P-1-102LF"
+			(property "Footprint" "POT_3362P"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "3362P-1-103LF"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
 					(hide yes)
 				)
 			)
-			(property "Description" "https://pricing.snapeda.com/parts/3362P-1-102%20LF/Bourns/view-part?ref=eda Check availability"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -62,122 +65,32 @@
 					)
 				)
 			)
-			(symbol "3362P-1-102LF_1_0"
-				(polyline
-					(pts
-						(xy -5.08 0) (xy -4.572 0)
+			(property "ki_keywords" "3362P-1-103LF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
+					(hide yes)
 				)
-				(polyline
-					(pts
-						(xy -4.699 -2.032) (xy -2.159 -2.032)
+			)
+			(property "ki_fp_filters" "POT_3362P"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
+					(hide yes)
 				)
+			)
+			(symbol "3362P-1-103LF_1_1"
 				(polyline
 					(pts
-						(xy -4.572 0) (xy -3.81 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 1.016) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.429 -1.397) (xy -2.159 -2.032)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.429 -2.667) (xy -3.429 -1.397)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -1.27 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.159 -2.032) (xy -3.429 -2.667)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.016) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy 0 -1.27)
+						(xy 2.54 0) (xy 6.35 0)
 					)
 					(stroke
 						(width 0.2032)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -185,23 +98,11 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -1.27) (xy 1.27 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 1.27 -2.54)
+						(xy 6.35 0) (xy 6.985 1.27)
 					)
 					(stroke
 						(width 0.2032)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -209,23 +110,11 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.016) (xy 2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy -1.27 -2.54)
+						(xy 6.985 1.27) (xy 8.255 -1.27)
 					)
 					(stroke
 						(width 0.2032)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -233,11 +122,11 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -1.27) (xy 3.81 1.016)
+						(xy 8.255 -1.27) (xy 9.525 1.27)
 					)
 					(stroke
-						(width 0.254)
-						(type solid)
+						(width 0.2032)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -245,11 +134,11 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 1.016) (xy 4.572 0)
+						(xy 9.525 3.81) (xy 10.16 1.905)
 					)
 					(stroke
-						(width 0.254)
-						(type solid)
+						(width 0.2032)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -257,66 +146,362 @@
 				)
 				(polyline
 					(pts
-						(xy 4.572 0) (xy 5.08 0)
+						(xy 9.525 3.81) (xy 10.795 3.81)
 					)
 					(stroke
-						(width 0.1524)
-						(type solid)
+						(width 0.2032)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(pin passive line
-					(at -10.16 0 0)
-					(length 5.08)
-					(name "CCW"
+				(polyline
+					(pts
+						(xy 9.525 1.27) (xy 10.795 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 3.81) (xy 10.16 5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.795 3.81) (xy 10.16 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.795 -1.27) (xy 12.065 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.065 1.27) (xy 13.335 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.335 -1.27) (xy 13.97 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.97 0) (xy 17.78 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
+					(name "1"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.524 1.524)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 5.08)
-					(name "WIPER"
+				(pin unspecified line
+					(at 10.16 7.62 270)
+					(length 2.54)
+					(name "2"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.524 1.524)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 5.08)
-					(name "CW"
+				(pin unspecified line
+					(at 20.32 0 180)
+					(length 2.54)
+					(name "3"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.524 1.524)
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "3362P-1-103LF_1_2"
+				(polyline
+					(pts
+						(xy -3.81 -9.525) (xy -1.905 -10.16)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -10.16) (xy -5.08 -10.16)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -10.795) (xy -3.81 -9.525)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -10.795) (xy -1.905 -10.16)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -8.255) (xy 1.27 -6.985)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -10.795) (xy 1.27 -9.525)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -13.335) (xy 1.27 -12.065)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -6.35) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -13.97) (xy -1.27 -13.335)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -17.78) (xy 0 -13.97)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -6.985) (xy 0 -6.35)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -9.525) (xy -1.27 -8.255)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -12.065) (xy -1.27 -10.795)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -10.16 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -20.32 90)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -551,6 +736,189 @@
 						(effects
 							(font
 								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -1002,16 +1370,22 @@
 		(uuid "1a5b73f8-d7f0-4e14-81d5-ddb6319512d3")
 	)
 	(junction
-		(at 58.42 44.45)
+		(at 48.26 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cd5b8e2b-f977-40e5-a108-0138e0f7c8b8")
+		(uuid "6235c9bf-a407-4adc-861d-c524167ebb53")
 	)
 	(junction
 		(at 83.82 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d3aa3f30-a59d-45b3-a49b-04a00b7460d3")
+	)
+	(junction
+		(at 58.42 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea3628c8-0622-417c-9a90-0d1e4fa3b0fd")
 	)
 	(wire
 		(pts
@@ -1035,6 +1409,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 24.13) (xy 48.26 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "224165bd-157d-45e0-b45b-b68b46280c7e")
+	)
+	(wire
+		(pts
 			(xy 50.8 34.29) (xy 50.8 33.02)
 		)
 		(stroke
@@ -1042,6 +1426,26 @@
 			(type default)
 		)
 		(uuid "28e7193c-2a59-440d-a95b-e2f3942dae60")
+	)
+	(wire
+		(pts
+			(xy 50.8 24.13) (xy 48.26 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "377acffc-cc36-4c0e-9a02-2b79451881bf")
+	)
+	(wire
+		(pts
+			(xy 48.26 33.02) (xy 50.8 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ed6abaa-571d-4be6-8308-fa089bf05a05")
 	)
 	(wire
 		(pts
@@ -1085,7 +1489,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 33.02) (xy 50.8 33.02)
+			(xy 45.72 33.02) (xy 48.26 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1102,6 +1506,16 @@
 			(type default)
 		)
 		(uuid "8b8d36e5-e92e-44e5-b330-c4994e9e33e6")
+	)
+	(wire
+		(pts
+			(xy 68.58 24.13) (xy 69.85 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cf96021-039a-4114-99b8-3a8466983244")
 	)
 	(wire
 		(pts
@@ -1162,6 +1576,16 @@
 			(type default)
 		)
 		(uuid "f2c3da65-fad9-467c-a71f-f641f137b60a")
+	)
+	(wire
+		(pts
+			(xy 58.42 24.13) (xy 60.96 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd272d4c-3c67-4aef-97a7-6fbd319e74c3")
 	)
 	(hierarchical_label "V_Reg_In"
 		(shape input)
@@ -1243,35 +1667,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Analog_Sandbox_PCB-eagle-import:3362P-1-102LF")
-		(at 50.8 44.45 90)
+		(lib_id "Device:R")
+		(at 54.61 24.13 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "48a57689-7600-4801-85bf-850e0f2c0917")
-		(property "Reference" "VR9"
-			(at 48.26 42.5449 90)
+		(uuid "0e33e526-4681-4df7-98d6-6a70fcbd8ab6")
+		(property "Reference" "R38"
+			(at 54.61 17.78 90)
 			(effects
 				(font
-					(size 1.7825 1.5151)
+					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 48.26 46.3549 90)
+		(property "Value" "560"
+			(at 54.61 20.32 90)
 			(effects
 				(font
-					(size 1.7848 1.517)
+					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Analog_Sandbox_PCB:TRIM_3362P-1-102LF"
-			(at 50.8 44.45 0)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 54.61 25.908 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1280,7 +1702,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 44.45 0)
+			(at 54.61 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1288,28 +1710,169 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "https://pricing.snapeda.com/parts/3362P-1-102%20LF/Bourns/view-part?ref=eda Check availability"
-			(at 50.8 44.45 0)
+		(property "Description" ""
+			(at 54.61 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "1a0e8f7d-084f-403b-a63f-bf3349f155ac")
 		)
 		(pin "1"
-			(uuid "fa33c264-6864-4a9e-8283-28d929db7c50")
+			(uuid "8cde7fc7-5c1c-4566-874b-43a08396db82")
 		)
-		(pin "3"
-			(uuid "45914c56-d401-4333-8b3e-ca9a5f5aab39")
+		(pin "2"
+			(uuid "1c026543-fecb-4235-83f2-90a87fd86e34")
 		)
 		(instances
 			(project "Analog_Sandbox_PCB"
 				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/fe66ce79-8177-44fa-a561-9cdc131a7718"
-					(reference "VR9")
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_Sandbox_PCB-eagle-import:PAD")
+		(at 58.42 38.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5144e44d-da41-4ae9-9d56-d0cebb79933f")
+		(property "Reference" "Base1"
+			(at 60.96 36.195 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PAD"
+			(at 60.96 40.005 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm"
+			(at 58.42 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91585604-7c2e-4381-8dfb-74a25aff8b07")
+		)
+		(instances
+			(project "Analog_Sandbox_PCB"
+				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/fe66ce79-8177-44fa-a561-9cdc131a7718"
+					(reference "Base1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 64.77 24.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7568d753-41f2-4406-9421-e3f643686516")
+		(property "Reference" "D12"
+			(at 66.3575 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 66.3575 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
+			(at 64.77 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 64.77 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 64.77 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a19f742-3d93-4cac-818c-b432949e285f")
+		)
+		(pin "2"
+			(uuid "5956fe33-9896-43b4-bb6d-83703cdbd321")
+		)
+		(instances
+			(project "Analog_Sandbox_PCB"
+				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/fe66ce79-8177-44fa-a561-9cdc131a7718"
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -1343,7 +1906,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 82.042 57.15 90)
 			(effects
 				(font
@@ -1352,7 +1915,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 83.82 57.15 0)
 			(effects
 				(font
@@ -1361,7 +1924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 83.82 57.15 0)
 			(effects
 				(font
@@ -1380,6 +1943,81 @@
 			(project "Analog_Sandbox_PCB"
 				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/fe66ce79-8177-44fa-a561-9cdc131a7718"
 					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "3362p:3362P-1-103LF")
+		(at 50.8 34.29 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e8be17c-4d40-4711-8937-737a997bf314")
+		(property "Reference" "R36"
+			(at 48.26 43.1799 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "3362P-1-103LF"
+			(at 48.26 45.7199 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Sandbox:POT_3362P"
+			(at 50.8 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "3362P-1-103LF"
+			(at 50.8 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "620caf39-a1de-4b15-870d-708eb94b94fd")
+		)
+		(pin "2"
+			(uuid "14652140-ee42-4601-bfc4-ca93a45d8627")
+		)
+		(pin "1"
+			(uuid "3243054f-8553-4bf8-b338-83aa1a4a66b3")
+		)
+		(instances
+			(project "Analog_Sandbox_PCB"
+				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/fe66ce79-8177-44fa-a561-9cdc131a7718"
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -1461,7 +2099,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abd31a37-8c4f-4366-88b3-c2ef2be8ae49")
-		(property "Reference" "J18"
+		(property "Reference" "Emitter1"
 			(at 93.98 48.895 0)
 			(effects
 				(font
@@ -1479,7 +2117,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Analog_Sandbox_PCB:2.54_1.0"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm"
 			(at 91.44 50.8 0)
 			(effects
 				(font
@@ -1497,7 +2135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Through-Hole Pad"
+		(property "Description" ""
 			(at 91.44 50.8 0)
 			(effects
 				(font
@@ -1512,7 +2150,7 @@
 		(instances
 			(project "Analog_Sandbox_PCB"
 				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/fe66ce79-8177-44fa-a561-9cdc131a7718"
-					(reference "J18")
+					(reference "Emitter1")
 					(unit 1)
 				)
 			)
@@ -1546,7 +2184,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 86.36 46.355 0)
 			(effects
 				(font
@@ -1595,35 +2233,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Analog_Sandbox_PCB-eagle-import:PAD")
-		(at 58.42 38.1 270)
+		(lib_id "power:GND")
+		(at 69.85 24.13 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e13b48e1-ae9d-4015-b545-69e5dcc1778b")
-		(property "Reference" "J19"
-			(at 60.96 36.195 90)
+		(uuid "f41b4879-83ea-4f37-82d0-76cf16268e08")
+		(property "Reference" "#PWR015"
+			(at 76.2 24.13 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "PAD"
-			(at 60.96 40.005 90)
+		(property "Value" "GND"
+			(at 73.66 24.1299 90)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Analog_Sandbox_PCB:2.54_1.0"
-			(at 58.42 38.1 0)
+		(property "Footprint" ""
+			(at 69.85 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1632,7 +2270,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 38.1 0)
+			(at 69.85 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1640,8 +2278,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Through-Hole Pad"
-			(at 58.42 38.1 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1650,12 +2288,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "5de3582a-7eb0-474d-92b7-932da77bbe0d")
+			(uuid "026f5bfe-2801-4ca8-9e25-84baac57c2bf")
 		)
 		(instances
 			(project "Analog_Sandbox_PCB"
 				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/fe66ce79-8177-44fa-a561-9cdc131a7718"
-					(reference "J19")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -1687,7 +2325,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 67.31 42.672 90)
 			(effects
 				(font
@@ -1696,7 +2334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 67.31 44.45 0)
 			(effects
 				(font
@@ -1705,7 +2343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 67.31 44.45 0)
 			(effects
 				(font

@@ -5,47 +5,50 @@
 	(uuid "7d297d32-0e04-46dd-9fc7-ecb5c721b792")
 	(paper "A5")
 	(lib_symbols
-		(symbol "Analog_Sandbox_PCB-eagle-import:3362P-1-102LF"
+		(symbol "3362p:3362P-1-103LF"
+			(pin_names
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "VR"
-				(at -10.1818 2.5465 0)
+			(property "Reference" "R"
+				(at 10.795 -3.175 0)
 				(effects
 					(font
-						(size 1.7825 1.5151)
+						(size 1.524 1.524)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Value" ""
-				(at -10.1645 -7.6422 0)
+			(property "Value" "3362P-1-103LF"
+				(at 10.795 -6.35 0)
 				(effects
 					(font
-						(size 1.7848 1.517)
+						(size 1.524 1.524)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Footprint" "Analog_Sandbox_PCB:TRIM_3362P-1-102LF"
+			(property "Footprint" "POT_3362P"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "3362P-1-103LF"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
 					(hide yes)
 				)
 			)
-			(property "Description" "https://pricing.snapeda.com/parts/3362P-1-102%20LF/Bourns/view-part?ref=eda Check availability"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -62,122 +65,32 @@
 					)
 				)
 			)
-			(symbol "3362P-1-102LF_1_0"
-				(polyline
-					(pts
-						(xy -5.08 0) (xy -4.572 0)
+			(property "ki_keywords" "3362P-1-103LF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
+					(hide yes)
 				)
-				(polyline
-					(pts
-						(xy -4.699 -2.032) (xy -2.159 -2.032)
+			)
+			(property "ki_fp_filters" "POT_3362P"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
+					(hide yes)
 				)
+			)
+			(symbol "3362P-1-103LF_1_1"
 				(polyline
 					(pts
-						(xy -4.572 0) (xy -3.81 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 1.016) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.429 -1.397) (xy -2.159 -2.032)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.429 -2.667) (xy -3.429 -1.397)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -1.27 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.159 -2.032) (xy -3.429 -2.667)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.016) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy 0 -1.27)
+						(xy 2.54 0) (xy 6.35 0)
 					)
 					(stroke
 						(width 0.2032)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -185,23 +98,11 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -1.27) (xy 1.27 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 1.27 -2.54)
+						(xy 6.35 0) (xy 6.985 1.27)
 					)
 					(stroke
 						(width 0.2032)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -209,23 +110,11 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.016) (xy 2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy -1.27 -2.54)
+						(xy 6.985 1.27) (xy 8.255 -1.27)
 					)
 					(stroke
 						(width 0.2032)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -233,11 +122,11 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -1.27) (xy 3.81 1.016)
+						(xy 8.255 -1.27) (xy 9.525 1.27)
 					)
 					(stroke
-						(width 0.254)
-						(type solid)
+						(width 0.2032)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -245,11 +134,11 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 1.016) (xy 4.572 0)
+						(xy 9.525 3.81) (xy 10.16 1.905)
 					)
 					(stroke
-						(width 0.254)
-						(type solid)
+						(width 0.2032)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -257,66 +146,362 @@
 				)
 				(polyline
 					(pts
-						(xy 4.572 0) (xy 5.08 0)
+						(xy 9.525 3.81) (xy 10.795 3.81)
 					)
 					(stroke
-						(width 0.1524)
-						(type solid)
+						(width 0.2032)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(pin passive line
-					(at -10.16 0 0)
-					(length 5.08)
-					(name "CCW"
+				(polyline
+					(pts
+						(xy 9.525 1.27) (xy 10.795 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 3.81) (xy 10.16 5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.795 3.81) (xy 10.16 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.795 -1.27) (xy 12.065 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.065 1.27) (xy 13.335 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.335 -1.27) (xy 13.97 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.97 0) (xy 17.78 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
+					(name "1"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.524 1.524)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 5.08)
-					(name "WIPER"
+				(pin unspecified line
+					(at 10.16 7.62 270)
+					(length 2.54)
+					(name "2"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.524 1.524)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 5.08)
-					(name "CW"
+				(pin unspecified line
+					(at 20.32 0 180)
+					(length 2.54)
+					(name "3"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.524 1.524)
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "3362P-1-103LF_1_2"
+				(polyline
+					(pts
+						(xy -3.81 -9.525) (xy -1.905 -10.16)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -10.16) (xy -5.08 -10.16)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -10.795) (xy -3.81 -9.525)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -10.795) (xy -1.905 -10.16)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -8.255) (xy 1.27 -6.985)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -10.795) (xy 1.27 -9.525)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -13.335) (xy 1.27 -12.065)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -6.35) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -13.97) (xy -1.27 -13.335)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -17.78) (xy 0 -13.97)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -6.985) (xy 0 -6.35)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -9.525) (xy -1.27 -8.255)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -12.065) (xy -1.27 -10.795)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -10.16 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -20.32 90)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -1149,22 +1334,16 @@
 		(uuid "2622f1d1-77a8-4447-90b1-3275a421f1ad")
 	)
 	(junction
-		(at 86.36 93.98)
+		(at 106.68 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3ad67487-ec36-481c-8cf1-1c0e9d36d4b9")
+		(uuid "7f75c89f-bc9c-4e98-ad04-dd30603bb7d6")
 	)
 	(junction
 		(at 133.35 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7e7af642-e5bb-45b2-8fd6-4d7913230273")
-	)
-	(junction
-		(at 106.68 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7f75c89f-bc9c-4e98-ad04-dd30603bb7d6")
+		(uuid "85b3eb3f-27f9-4ab0-83cf-5661366eeb8d")
 	)
 	(junction
 		(at 96.52 93.98)
@@ -1179,20 +1358,20 @@
 		(uuid "9dbd1440-6698-4e38-a880-f737dfc71c59")
 	)
 	(junction
+		(at 133.35 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b990ffda-3815-42e3-b215-55698a9d0f37")
+	)
+	(junction
 		(at 96.52 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c376ad6f-fe84-4527-a35e-0deedfefa3ed")
 	)
-	(junction
-		(at 133.35 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d327b7cf-ab05-4ddc-a7a1-87bda62691f2")
-	)
 	(wire
 		(pts
-			(xy 67.31 93.98) (xy 86.36 93.98)
+			(xy 67.31 93.98) (xy 96.52 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1392,7 +1571,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 77.47) (xy 133.35 92.71)
+			(xy 133.35 77.47) (xy 133.35 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1409,16 +1588,6 @@
 			(type default)
 		)
 		(uuid "9dc1a412-3682-48c6-8ff7-1594f9f6c0e6")
-	)
-	(wire
-		(pts
-			(xy 133.35 92.71) (xy 133.35 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4477ae5-b3bc-4b40-9356-697792941d92")
 	)
 	(wire
 		(pts
@@ -1449,16 +1618,6 @@
 			(type default)
 		)
 		(uuid "d12d80da-adfb-4f21-b09c-e615d575554f")
-	)
-	(wire
-		(pts
-			(xy 86.36 93.98) (xy 96.52 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd080e51-5490-4bf4-a84c-ab3545eac9b4")
 	)
 	(wire
 		(pts
@@ -1598,7 +1757,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0cc67061-896f-4558-bc40-147b8f27cd4d")
+		(uuid "08e7a87d-ddf4-4921-9de4-936f8626793a")
 		(property "Reference" "J11"
 			(at 135.89 42.545 90)
 			(effects
@@ -1617,7 +1776,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Analog_Sandbox_PCB:2.54_1.0"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm"
 			(at 133.35 44.45 0)
 			(effects
 				(font
@@ -1635,7 +1794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Through-Hole Pad"
+		(property "Description" ""
 			(at 133.35 44.45 0)
 			(effects
 				(font
@@ -1645,12 +1804,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "94b2a4ff-8de1-414a-a081-9cba56f152d3")
+			(uuid "0f4977b2-ddd4-433b-b9ef-b32aa778e6b9")
 		)
 		(instances
 			(project "Analog_Sandbox_PCB"
 				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/1ffce373-b0c0-4221-ae7b-13552ac0c0a1"
 					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 137.16 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25163ac6-fb27-43f6-a4a5-3d370fc9bee6")
+		(property "Reference" "#PWR021"
+			(at 137.16 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.16 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9998852a-ff38-4605-b610-ea039fb2bc32")
+		)
+		(instances
+			(project "Analog_Sandbox_PCB"
+				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/1ffce373-b0c0-4221-ae7b-13552ac0c0a1"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -1817,7 +2042,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 105.41 48.768 90)
 			(effects
 				(font
@@ -1826,7 +2051,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 105.41 46.99 0)
 			(effects
 				(font
@@ -1835,7 +2060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 105.41 46.99 0)
 			(effects
 				(font
@@ -1885,7 +2110,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 85.09 48.768 90)
 			(effects
 				(font
@@ -1894,7 +2119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 85.09 46.99 0)
 			(effects
 				(font
@@ -1903,7 +2128,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 85.09 46.99 0)
 			(effects
 				(font
@@ -1953,7 +2178,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 100.33 30.988 90)
 			(effects
 				(font
@@ -1962,7 +2187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 100.33 29.21 0)
 			(effects
 				(font
@@ -1971,7 +2196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 100.33 29.21 0)
 			(effects
 				(font
@@ -1997,32 +2222,34 @@
 	)
 	(symbol
 		(lib_id "Analog_Sandbox_PCB-eagle-import:PAD")
-		(at 72.39 46.99 0)
+		(at 133.35 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b16fb8fd-2560-40c2-b4c9-129cc0878736")
-		(property "Reference" "J8"
-			(at 72.39 39.37 0)
+		(uuid "9e8b0916-7901-4862-8c81-5daa57570401")
+		(property "Reference" "J9"
+			(at 135.89 94.615 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "PAD"
-			(at 72.39 43.18 0)
+			(at 135.89 98.425 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Analog_Sandbox_PCB:2.54_1.0"
-			(at 72.39 46.99 0)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm"
+			(at 133.35 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2031,7 +2258,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 46.99 0)
+			(at 133.35 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2039,8 +2266,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Through-Hole Pad"
-			(at 72.39 46.99 0)
+		(property "Description" ""
+			(at 133.35 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2049,12 +2276,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "2efc1d41-5195-4561-8885-fc44b6d8fd7d")
+			(uuid "fb4e13ed-87a6-4d6f-bc50-987d3aaa8bac")
 		)
 		(instances
-			(project ""
+			(project "Analog_Sandbox_PCB"
 				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/1ffce373-b0c0-4221-ae7b-13552ac0c0a1"
-					(reference "J8")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -2088,7 +2315,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 69.088 82.55 90)
 			(effects
 				(font
@@ -2097,7 +2324,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 67.31 82.55 0)
 			(effects
 				(font
@@ -2106,7 +2333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 67.31 82.55 0)
 			(effects
 				(font
@@ -2202,73 +2429,75 @@
 		)
 	)
 	(symbol
-		(lib_id "Analog_Sandbox_PCB-eagle-import:3362P-1-102LF")
-		(at 137.16 67.31 270)
+		(lib_id "3362p:3362P-1-103LF")
+		(at 137.16 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ce30dc23-881f-4903-a2d8-e3d9bd798907")
-		(property "Reference" "VR2"
-			(at 139.7 65.4049 90)
+		(uuid "d433c98a-dbd7-4a59-bab1-1e4303b4eb04")
+		(property "Reference" "R31"
+			(at 139.7 66.0399 90)
 			(effects
 				(font
-					(size 1.7825 1.5151)
+					(size 1.524 1.524)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "~"
-			(at 139.7 69.2149 90)
+		(property "Value" "3362P-1-103LF"
+			(at 139.7 68.5799 90)
 			(effects
 				(font
-					(size 1.7848 1.517)
+					(size 1.524 1.524)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TRIM_3362P-1-102LF_vf.A5S3VpQGRRqLSuxbPYtLvA"
-			(at 137.16 67.31 0)
+		(property "Footprint" "Sandbox:POT_3362P"
+			(at 137.16 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "3362P-1-103LF"
+			(at 137.16 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "https://pricing.snapeda.com/parts/3362P-1-102%20LF/Bourns/view-part?ref=eda Check availability"
-			(at 137.16 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "97ee0ac7-319d-41d3-8ce5-37734c11c35a")
-		)
-		(pin "2"
-			(uuid "08fe7447-42fc-4488-a276-0b1acc57fbe0")
 		)
 		(pin "3"
-			(uuid "4cc6cad9-65fb-480d-8b07-7ea76fd6c91b")
+			(uuid "9e831a5f-9203-4aaf-ac24-03fd0974b06d")
+		)
+		(pin "2"
+			(uuid "465d50c0-2fdf-4104-9713-e76c15f40c0c")
+		)
+		(pin "1"
+			(uuid "6e8f6bf1-8bb0-418a-815d-cd8278a108d5")
 		)
 		(instances
 			(project "Analog_Sandbox_PCB"
 				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/1ffce373-b0c0-4221-ae7b-13552ac0c0a1"
-					(reference "VR2")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -2276,34 +2505,32 @@
 	)
 	(symbol
 		(lib_id "Analog_Sandbox_PCB-eagle-import:PAD")
-		(at 86.36 96.52 90)
+		(at 72.39 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e2840635-0fb5-4bf9-8360-44b1fb63a1f1")
-		(property "Reference" "J10"
-			(at 88.9 94.615 90)
+		(uuid "e2d6d625-5622-4cce-b102-dc61e16799ae")
+		(property "Reference" "J8"
+			(at 72.39 39.37 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "PAD"
-			(at 88.9 98.425 90)
+			(at 72.39 43.18 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "2.54_1.0_16378166"
-			(at 86.36 96.52 0)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm"
+			(at 72.39 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2312,7 +2539,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 96.52 0)
+			(at 72.39 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2320,8 +2547,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Through-Hole Pad"
-			(at 86.36 96.52 0)
+		(property "Description" ""
+			(at 72.39 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2330,12 +2557,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "c0bf0ef8-1b81-4903-96d8-8ba87d4d6202")
+			(uuid "be5d7cc9-9b5d-4c2b-aa8b-9f480fc471ff")
 		)
 		(instances
 			(project "Analog_Sandbox_PCB"
 				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/1ffce373-b0c0-4221-ae7b-13552ac0c0a1"
-					(reference "J10")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -2548,73 +2775,6 @@
 			(project "Analog_Sandbox_PCB"
 				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/1ffce373-b0c0-4221-ae7b-13552ac0c0a1"
 					(reference "S5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Analog_Sandbox_PCB-eagle-import:PAD")
-		(at 133.35 95.25 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fbabf732-f27e-4000-8112-5380f0fef2a7")
-		(property "Reference" "J9"
-			(at 135.89 93.345 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PAD"
-			(at 135.89 97.155 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Analog_Sandbox_PCB:2.54_1.0"
-			(at 133.35 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Through-Hole Pad"
-			(at 133.35 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3c1fa49b-e2a9-4b7e-ad34-8b3c81f7fb42")
-		)
-		(instances
-			(project "Analog_Sandbox_PCB"
-				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/1ffce373-b0c0-4221-ae7b-13552ac0c0a1"
-					(reference "J9")
 					(unit 1)
 				)
 			)
