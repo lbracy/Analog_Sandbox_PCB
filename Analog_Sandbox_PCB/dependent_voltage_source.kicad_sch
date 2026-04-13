@@ -1376,6 +1376,18 @@
 		(uuid "6235c9bf-a407-4adc-861d-c524167ebb53")
 	)
 	(junction
+		(at 72.39 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a570c85-4852-46b4-bc9e-83cd5298d454")
+	)
+	(junction
+		(at 83.82 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a80cdcb-37b4-4e44-b273-71577e85b40d")
+	)
+	(junction
 		(at 83.82 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1386,6 +1398,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea3628c8-0622-417c-9a90-0d1e4fa3b0fd")
+	)
+	(wire
+		(pts
+			(xy 72.39 40.64) (xy 72.39 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05f72a15-224f-4596-becd-eec8398296bf")
 	)
 	(wire
 		(pts
@@ -1459,7 +1481,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 44.45) (xy 76.2 44.45)
+			(xy 71.12 44.45) (xy 72.39 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1496,6 +1518,16 @@
 			(type default)
 		)
 		(uuid "50a7b307-4066-40d5-87a9-17aedb3d11bb")
+	)
+	(wire
+		(pts
+			(xy 72.39 44.45) (xy 76.2 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cc90b15-7390-4b61-bba5-a8e3e95b6882")
 	)
 	(wire
 		(pts
@@ -1736,16 +1768,82 @@
 	)
 	(symbol
 		(lib_id "Analog_Sandbox_PCB-eagle-import:PAD")
-		(at 58.42 38.1 270)
+		(at 72.39 38.1 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
+		(uuid "480a48de-2d94-46a0-9c22-f1cbcaf48744")
+		(property "Reference" "G3"
+			(at 74.93 36.195 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PAD"
+			(at 74.93 40.005 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm"
+			(at 72.39 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "270abe21-cd1b-4745-9cd6-77513fdd01fd")
+		)
+		(instances
+			(project "Analog_Sandbox_PCB"
+				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/fe66ce79-8177-44fa-a561-9cdc131a7718"
+					(reference "G3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_Sandbox_PCB-eagle-import:PAD")
+		(at 58.42 38.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "5144e44d-da41-4ae9-9d56-d0cebb79933f")
-		(property "Reference" "Base1"
-			(at 60.96 36.195 90)
+		(property "Reference" "G2"
+			(at 61.214 36.068 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -1795,7 +1893,7 @@
 		(instances
 			(project "Analog_Sandbox_PCB"
 				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/fe66ce79-8177-44fa-a561-9cdc131a7718"
-					(reference "Base1")
+					(reference "G2")
 					(unit 1)
 				)
 			)
@@ -1943,6 +2041,73 @@
 			(project "Analog_Sandbox_PCB"
 				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/fe66ce79-8177-44fa-a561-9cdc131a7718"
 					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_Sandbox_PCB-eagle-import:PAD")
+		(at 86.36 33.02 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86153032-7422-4028-b9c6-dee4b4837334")
+		(property "Reference" "G1"
+			(at 88.9 31.115 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PAD"
+			(at 88.9 34.925 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm"
+			(at 86.36 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea37443d-322b-46ab-ad04-9084ea9ea5f2")
+		)
+		(instances
+			(project "Analog_Sandbox_PCB"
+				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/fe66ce79-8177-44fa-a561-9cdc131a7718"
+					(reference "G1")
 					(unit 1)
 				)
 			)
@@ -2099,7 +2264,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abd31a37-8c4f-4366-88b3-c2ef2be8ae49")
-		(property "Reference" "Emitter1"
+		(property "Reference" "G4"
 			(at 93.98 48.895 0)
 			(effects
 				(font
@@ -2150,7 +2315,7 @@
 		(instances
 			(project "Analog_Sandbox_PCB"
 				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/fe66ce79-8177-44fa-a561-9cdc131a7718"
-					(reference "Emitter1")
+					(reference "G4")
 					(unit 1)
 				)
 			)

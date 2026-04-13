@@ -1758,7 +1758,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08e7a87d-ddf4-4921-9de4-936f8626793a")
-		(property "Reference" "J11"
+		(property "Reference" "M2"
 			(at 135.89 42.545 90)
 			(effects
 				(font
@@ -1809,7 +1809,7 @@
 		(instances
 			(project "Analog_Sandbox_PCB"
 				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/1ffce373-b0c0-4221-ae7b-13552ac0c0a1"
-					(reference "J11")
+					(reference "M2")
 					(unit 1)
 				)
 			)
@@ -2230,7 +2230,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e8b0916-7901-4862-8c81-5daa57570401")
-		(property "Reference" "J9"
+		(property "Reference" "M3"
 			(at 135.89 94.615 90)
 			(effects
 				(font
@@ -2281,7 +2281,7 @@
 		(instances
 			(project "Analog_Sandbox_PCB"
 				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/1ffce373-b0c0-4221-ae7b-13552ac0c0a1"
-					(reference "J9")
+					(reference "M3")
 					(unit 1)
 				)
 			)
@@ -2513,7 +2513,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2d6d625-5622-4cce-b102-dc61e16799ae")
-		(property "Reference" "J8"
+		(property "Reference" "M1"
 			(at 72.39 39.37 0)
 			(effects
 				(font
@@ -2562,7 +2562,7 @@
 		(instances
 			(project "Analog_Sandbox_PCB"
 				(path "/ac750111-a1db-4b3c-a106-e1424e47aebb/1ffce373-b0c0-4221-ae7b-13552ac0c0a1"
-					(reference "J8")
+					(reference "M1")
 					(unit 1)
 				)
 			)
